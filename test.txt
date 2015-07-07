@@ -1,0 +1,10 @@
+the quick brown fox jumps over the lazy dog
+THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
+the quick brown fox jumps over the lazy dog.
+the quick brown fox jumps over the lazy dog!
+!@#$%^&*()the !@#$%^&*()quick !@#$%^&brown *()_fox !@#$%^&*()jumps !@#$%^&*over !@#$%^&the @#$%^lazy $%^&dog
+the-quick brown-fox jumps-over the-lazy dog
+the -- quick -- brown -- fox -- jumps -- over -- the -- lazy -- dog
+the - quick - brown - fox - jumps - over - the - lazy - dog
+
+!@#$%^&*() $%^&*()_(*        @#$%^%&^*()
