@@ -8,6 +8,7 @@ def main():
 
 	text = open(filename)
 	contents = text.read()
+	text.close()
 
 	# Remove newline characters and seperator hypens from the file contents, and split the
 	# contents into a list of all the words in it
