@@ -1,6 +1,8 @@
+from string import punctuation
 from sys import argv
 
-PUNCTUATION = list("~`!@#$%^&*()_+={}[]|\:;\"'<>?,./")
+# Create a list of all punctuation minus the hyphen
+punctuationList = list(punctuation.replace("-", ""))
 
 def main():
 	# Get the name of the script and the name of the file from the command line
@@ -19,7 +21,7 @@ def main():
 	for word in wordList:
 		# Remove any punctuation from the file contents that doesn't act as a seperator for
 		# two different words
-		for char in PUNCTUATION:
+		for char in punctuationList:
 			word = word.replace(char, "")
 
 		# Don't count words that are blank strings, such as empty lines in a file
