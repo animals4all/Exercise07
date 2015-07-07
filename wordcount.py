@@ -4,8 +4,10 @@ PUNCTUATION = list("~`!@#$%^&*()_+={}[]|\:;\"'<>?,./")
 
 def main():
 	# Get the name of the script and the name of the file from the command line
-	filename = "t.txt"
-	contents = open(filename)
+	script, filename = argv
+
+	text = open(filename)
+	contents = text.read()
 
 	# Remove newline characters and seperator hypens from the file contents, and split the
 	# contents into a list of all the words in it
